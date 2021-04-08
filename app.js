@@ -9,7 +9,7 @@ app.use(express.json());
 
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log("Mongo is connected"))
+  .then(() => console.log("Mongo a gogo"))
   .catch((err) => console.log(err));
 
 app.get("/", (req, res) => res.send("This works!"));
