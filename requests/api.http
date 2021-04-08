@@ -9,3 +9,15 @@ Content-type: application/json
     "repo": "repo",
     "live": "live"
 }
+
+### View questions
+GET http://127.0.0.1:5000/api/questions
+Content-type: application/json
+
+
+### Edit a question
+
+
+## Delete a question
+DELETE http://127.0.0.1:5000/api/questions/606f5745baa531432297d963
+Content-type: application/json
