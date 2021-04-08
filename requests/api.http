@@ -1,0 +1,11 @@
+### Create a question
+
+POST http://127.0.0.1:5000/api/questions
+Content-type: application/json
+
+{
+    "name": "Connor Murphy",
+    "text": "This is a test!",
+    "repo": "repo",
+    "live": "live"
+}
