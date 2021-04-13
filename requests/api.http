@@ -16,12 +16,12 @@ Content-type: application/json
 
 
 ### Edit a question
-PATCH http://127.0.0.1:5000/api/questions/606f576abaa531432297d964
+PATCH http://127.0.0.1:5000/api/questions/606f54d0baa531432297d962
 Content-type: application/json
 
 {
-    "answered": true
-    }
+    "repo": "one"
+}
 
 ## Delete a question
 DELETE http://127.0.0.1:5000/api/questions/606f5745baa531432297d963

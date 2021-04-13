@@ -1,5 +1,5 @@
 const express = require("express");
-const question = require("../../models/question");
+// const question = require("../../models/question");
 const router = express.Router();
 
 const Question = require("../../models/question");
@@ -31,7 +31,7 @@ router.patch("/:question_id", (req, res) => {
     { new: true, useFindAndModify: false }
   )
     .then((question) => res.json(question))
-    .catch((err) => res.status(404), json(err));
+    .catch((err) => res.status(404).json(err));
 });
 
 router.delete("/:question_id", (req, res) => {

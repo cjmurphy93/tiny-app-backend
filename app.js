@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 
 const db = require("./config/keys").mongoURI;
-const questions = require("../backend/routes/api/questions");
+const questions = require("./routes/api/questions");
 
 app.use(express.json());
 
